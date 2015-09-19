@@ -1,0 +1,87 @@
+[18-Sep-2015 13:31:06 Europe/Berlin] PHP Fatal error:  Class 'Zed' not found in /Users/chilliscope/Documents/Webseiten/mein-deutschbuch/system/modules/zedseries_lib/config/config.php on line 65
+[18-Sep-2015 13:31:13 Europe/Berlin] PHP Fatal error:  Class 'Zed' not found in /Users/chilliscope/Documents/Webseiten/mein-deutschbuch/system/modules/zedseries_lib/config/config.php on line 65
+[18-Sep-2015 13:31:18 Europe/Berlin] PHP Fatal error:  Class 'Zed' not found in /Users/chilliscope/Documents/Webseiten/mein-deutschbuch/system/modules/zedseries_lib/config/config.php on line 65
+[18-Sep-2015 13:31:20 Europe/Berlin] PHP Fatal error:  Class 'Zed' not found in /Users/chilliscope/Documents/Webseiten/mein-deutschbuch/system/modules/zedseries_lib/config/config.php on line 65
+[18-Sep-2015 13:31:26 Europe/Berlin] PHP Fatal error:  Class 'Zed' not found in /Users/chilliscope/Documents/Webseiten/mein-deutschbuch/system/modules/zedseries_lib/config/config.php on line 65
+[18-Sep-2015 13:31:29 Europe/Berlin] PHP Fatal error:  Class 'Zed' not found in /Users/chilliscope/Documents/Webseiten/mein-deutschbuch/system/modules/zedseries_lib/config/config.php on line 65
+[18-Sep-2015 13:31:37 Europe/Berlin] PHP Fatal error:  Class 'Zed' not found in /Users/chilliscope/Documents/Webseiten/mein-deutschbuch/system/modules/zedseries_lib/config/config.php on line 65
+[19-Sep-2015 12:15:10 Europe/Berlin] 
+PHP Warning: mysql_pconnect(): Access denied for user 'root'@'localhost' (using password: YES) in /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Database/Mysql.php on line 43
+#0 [internal function]: __error(2, 'mysql_pconnect(...', '/usr/www/users/...', 43, Array)
+#1 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Database/Mysql.php(43): mysql_pconnect('localhost:3306', 'root', 'root')
+#2 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Database.php(81): Contao\Database\Mysql->connect()
+#3 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Database.php(165): Contao\Database->__construct(Array)
+#4 [internal function]: Contao\Database::getInstance()
+#5 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/System.php(140): call_user_func(Array)
+#6 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(473): Contao\System->import('Database')
+#7 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(168): Contao\BackendInstall->setUpDatabaseConnection()
+#8 /usr/www/users/chillisc/chi_ituccrci/contao/install.php(24): Contao\BackendInstall->run()
+#9 {main}
+
+[19-Sep-2015 12:15:10 Europe/Berlin] 
+PHP Warning: Cannot modify header information - headers already sent by (output started at /usr/www/users/chillisc/chi_ituccrci/system/helper/functions.php:65) in /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Template.php on line 294
+#0 [internal function]: __error(2, 'Cannot modify h...', '/usr/www/users/...', 294, Array)
+#1 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Template.php(294): header('Vary: User-Agen...', false)
+#2 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/classes/BackendTemplate.php(120): Contao\Template->output()
+#3 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(872): Contao\BackendTemplate->output()
+#4 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(481): Contao\BackendInstall->outputAndExit()
+#5 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(168): Contao\BackendInstall->setUpDatabaseConnection()
+#6 /usr/www/users/chillisc/chi_ituccrci/contao/install.php(24): Contao\BackendInstall->run()
+#7 {main}
+
+[19-Sep-2015 12:15:10 Europe/Berlin] 
+PHP Warning: Cannot modify header information - headers already sent by (output started at /usr/www/users/chillisc/chi_ituccrci/system/helper/functions.php:65) in /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Template.php on line 295
+#0 [internal function]: __error(2, 'Cannot modify h...', '/usr/www/users/...', 295, Array)
+#1 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Template.php(295): header('Content-Type: t...')
+#2 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/classes/BackendTemplate.php(120): Contao\Template->output()
+#3 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(872): Contao\BackendTemplate->output()
+#4 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(481): Contao\BackendInstall->outputAndExit()
+#5 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(168): Contao\BackendInstall->setUpDatabaseConnection()
+#6 /usr/www/users/chillisc/chi_ituccrci/contao/install.php(24): Contao\BackendInstall->run()
+#7 {main}
+
+[19-Sep-2015 12:15:21 Europe/Berlin] 
+PHP Warning: mysql_pconnect(): Access denied for user 'root'@'localhost' (using password: YES) in /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Database/Mysql.php on line 43
+#0 [internal function]: __error(2, 'mysql_pconnect(...', '/usr/www/users/...', 43, Array)
+#1 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Database/Mysql.php(43): mysql_pconnect('localhost:3306', 'root', 'root')
+#2 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Database.php(81): Contao\Database\Mysql->connect()
+#3 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Database.php(165): Contao\Database->__construct(Array)
+#4 [internal function]: Contao\Database::getInstance()
+#5 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/System.php(140): call_user_func(Array)
+#6 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(473): Contao\System->import('Database')
+#7 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(168): Contao\BackendInstall->setUpDatabaseConnection()
+#8 /usr/www/users/chillisc/chi_ituccrci/contao/install.php(24): Contao\BackendInstall->run()
+#9 {main}
+
+[19-Sep-2015 12:15:21 Europe/Berlin] 
+PHP Warning: Cannot modify header information - headers already sent by (output started at /usr/www/users/chillisc/chi_ituccrci/system/helper/functions.php:65) in /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Template.php on line 294
+#0 [internal function]: __error(2, 'Cannot modify h...', '/usr/www/users/...', 294, Array)
+#1 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Template.php(294): header('Vary: User-Agen...', false)
+#2 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/classes/BackendTemplate.php(120): Contao\Template->output()
+#3 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(872): Contao\BackendTemplate->output()
+#4 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(481): Contao\BackendInstall->outputAndExit()
+#5 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(168): Contao\BackendInstall->setUpDatabaseConnection()
+#6 /usr/www/users/chillisc/chi_ituccrci/contao/install.php(24): Contao\BackendInstall->run()
+#7 {main}
+
+[19-Sep-2015 12:15:21 Europe/Berlin] 
+PHP Warning: Cannot modify header information - headers already sent by (output started at /usr/www/users/chillisc/chi_ituccrci/system/helper/functions.php:65) in /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Template.php on line 295
+#0 [internal function]: __error(2, 'Cannot modify h...', '/usr/www/users/...', 295, Array)
+#1 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Template.php(295): header('Content-Type: t...')
+#2 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/classes/BackendTemplate.php(120): Contao\Template->output()
+#3 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(872): Contao\BackendTemplate->output()
+#4 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(481): Contao\BackendInstall->outputAndExit()
+#5 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/BackendInstall.php(168): Contao\BackendInstall->setUpDatabaseConnection()
+#6 /usr/www/users/chillisc/chi_ituccrci/contao/install.php(24): Contao\BackendInstall->run()
+#7 {main}
+
+[19-Sep-2015 12:17:56 Europe/Berlin] PHP Fatal error: Uncaught exception 'Exception' with message 'Query error: Unknown column 'j1.clipboard' in 'field list' (SELECT tl_article.*, j1.id AS author__id, j1.tstamp AS author__tstamp, j1.username AS author__username, j1.name AS author__name, j1.email AS author__email, j1.language AS author__language, j1.backendTheme AS author__backendTheme, j1.uploader AS author__uploader, j1.showHelp AS author__showHelp, j1.thumbnails AS author__thumbnails, j1.useRTE AS author__useRTE, j1.useCE AS author__useCE, j1.password AS author__password, j1.pwChange AS author__pwChange, j1.admin AS author__admin, j1.groups AS author__groups, j1.inherit AS author__inherit, j1.modules AS author__modules, j1.themes AS author__themes, j1.pagemounts AS author__pagemounts, j1.alpty AS author__alpty, j1.filemounts AS author__filemounts, j1.fop AS author__fop, j1.forms AS author__forms, j1.formp AS author__formp, j1.disable AS author__disable, j1.start AS author__start, j1.stop AS author__stop, j1.session AS author__session, j1.dateAdded AS author__dateAdded, j1.lastLogin AS author__lastLogin, j1.currentLogin AS author__currentLogin, j1.loginCount AS author__loginCount, j1.locked AS author__locked, j1.calendars AS author__calendars, j1.calendarp AS author__calendarp, j1.calendarfeeds AS author__calendarfeeds, j1.calendarfeedp AS author__calendarfeedp, j1.clipboard AS author__clipboard, j1.clipboard_context AS author__clipboard_context, j1.faqs AS author__faqs, j1.faqp AS author__faqp, j1.news AS author__news, j1.newp AS author__newp, j1.newsfeeds AS author__newsfeeds, j1.newsfeedp AS author__newsfeedp, j1.newsletters AS author__newsletters, j1.newsletterp AS author__newsletterp FROM tl_article LEFT JOIN tl_user j1 ON tl_article.author=j1.id WHERE tl_article.pid='2' AND tl_article.inColumn='main' AND (tl_article.start='' OR tl_article.start<='1442657820') AND (tl_article.stop='' OR tl_article.stop>'1442657880') AND tl_article.published='1' ORDER BY tl_article.sorting)' thrown in /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Database/Statement.php on line 295
+#0 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Database/Statement.php(264): Contao\Database\Statement->query()
+#1 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Model.php(1082): Contao\Database\Statement->execute(Array)
+#2 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Model.php(958): Contao\Model::find(Array)
+#3 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/models/ArticleModel.php(201): Contao\Model::findBy(Array, Array, Array)
+#4 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/library/Contao/Controller.php(234): Contao\ArticleModel::findPublishedByPidAndColumn('2', 'main')
+#5 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#6 /usr/www/users/chillisc/chi_ituccrci/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#7 /usr/www/users/chillisc/chi_ituccrci/index.php(20): Contao\FrontendIndex->run()
+#8 {main}
