@@ -1,0 +1,26 @@
+
+{% block list %}{% spaceless %}
+	<ul class="level_{{ level }}">{{ items }}</ul>
+{% endspaceless %}{% endblock %}
+
+{% block item %}{% spaceless %}
+	<li{{ xnav_render_attributes(item_attributes) }}>
+		{# render the link #}
+		{{ link }}
+
+		{# display the sub-items #}
+		{{ children }}
+	</li>
+{% endspaceless %}{% endblock %}
+
+{% block link %}{% spaceless %}
+	<a{{ xnav_render_attributes(link_attributes) }} href="{{ item.uri|escape('html_attr') }}">{{ label }}</a>
+{% endspaceless %}{% endblock %}
+
+{% block link_current %}{% spaceless %}
+	<strong{{ xnav_render_attributes(link_attributes) }}>{{ label }}</strong>
+{% endspaceless %}{% endblock %}
+
+{% block label %}{% spaceless %}
+	<span{{ xnav_render_attributes(label_attributes) }}>{{ item.label }}</span>
+{% endspaceless %}{% endblock %}
