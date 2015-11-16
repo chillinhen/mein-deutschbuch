@@ -1,0 +1,15 @@
+<div class="googleplus1">
+	<?php if ($this->headline): ?>
+		<<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>>
+	<?php endif; ?>
+	<div class="g-plusone" <?php if ($this->size): ?> data-size="<?php echo $this->size; ?>"<?php endif; ?><?php if ($this->differenthref==true): ?> data-href="<?php echo $this->googleplusonehref; ?>"<?php endif; ?>>
+	</div>
+	<script type="text/javascript">
+	<?php if($this->button_language!=''): ?>  window.___gcfg = {lang: '<?php echo($this->button_language); ?>'};<?php endif; ?>
+	  (function() {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		po.src = 'https://apis.google.com/js/plusone.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	  })();
+	</script>
+</div>
